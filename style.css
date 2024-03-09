@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+}
+nav a:hover{
+    color: rgb(14, 163, 255);
+}
+.nav-box1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0px 50px;
+
+}
+.nav-box2{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(193, 177, 112, 0.944);
+    z-index: 2;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.img1,.carousel-item img{
+    background-image: url('https://st4.depositphotos.com/1009647/27204/i/450/depositphotos_272041202-stock-photo-modern-living-interior-design.jpg');
+    background-size: cover;
+    height: ;
+    width: 100%;
+
+}
+
+section p{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    right: 150px;
+    height: 100vh;
+    font-size: 4em;
+}
